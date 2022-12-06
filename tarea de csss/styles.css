@@ -1,0 +1,49 @@
+/* Etiquetas */
+body {
+  /*↑Selector  */
+  background-color: chocolate;
+  /*↑propiedad     ↑Valor */
+}
+h1 {
+  color: burlywood;
+}
+img{
+ width: 20px;
+ height: 20px; 
+}
+button {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 5px ;
+  border: 1px solid;
+ 
+}
+nav {
+  background-color: white;
+  width: 50%;
+  height: min-content;
+  padding: 50px;
+  border: 2px solid ;
+  border-radius: 5px 28px  28px 5px;
+  margin-bottom: 30px;
+  /* top bottom left right */
+}
+
+nav:hover {
+  background-color: black;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+/* Etiquetas */
+
+#saludo {
+  color: chartreuse;
+} /* ID ##### */
+
+.palabrasEnRojo {
+  color: red;
+} /* class ...... */
